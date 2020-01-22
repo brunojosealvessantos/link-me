@@ -1,0 +1,51 @@
+body {
+    background-image: url('../img/img.jpg');
+    /* Faz a imagem caber na tela */
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+}
+
+.txt-color {
+    color: blue;
+}
+
+.profile {
+    border-radius: 195px;
+    width: 20%;
+    border: 5px solid gray;
+}
+
+.txt {
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+
+
+/* O hover acontece quando o mouse passa por cima */
+
+.link:hover {
+    text-decoration: none;
+    color: rgb(40, 167, 124);
+    font-size: 25px;
+}
+
+.space {
+    margin-right: 30px;
+}
+
+.btn {
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    background-color: rgb(40, 167, 124);
+    border-radius: .25rem;
+    color: #fff;
+    text-decoration: none;
+}
