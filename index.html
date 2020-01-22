@@ -23,20 +23,46 @@
             </figure>
             <p class="txt">Desenvolvedor Web & Mobile</p>
             <div class="row">
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-secondary btn-block" href="https://api.whatsapp.com/send?phone=5575999856789&text=OI%C3%A1%21&source=&data=" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                 </div>
 
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-secondary btn-block" href="https://web.facebook.com/profile.php?id=100005511313485" target="_blank"><i class="fab fa-facebook"></i> FaceBook</a>
                 </div>
 
-                <div class="col-md-4 col-sm-12 space">
+                <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-secondary btn-block" href="https://www.linkedin.com/in/bruno-santos-22199387/" target="_blank"><i class="fab fa-linkedin"></i> Linkdin</a>
+                </div>
+
+                <div class="col-md-3 col-sm-12 space">
+                    <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#telaemail"><i class="fas fa-envelope-open-text"></i>
+                        Email
+                    </button>
                 </div>
             </div>
         </div>
     </header>
+    <!-- Modal -->
+    <div class="modal fade" id="telaemail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Digite sua Mensagem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" class="form-control space-margin" id="emailTxt" placeholder="Digite seu email">
+                    <textarea class="form-control" id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btn-block " data-dismiss="modal">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
