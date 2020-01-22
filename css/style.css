@@ -1,11 +1,19 @@
+html,
 body {
-    background: url('../img/img.jpg') no-repeat center center fixed;
-    /* Faz a imagem caber na tela */
+    widows: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    widows: 100%;
+    height: 100%;
+    background-image: url('../img/img.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    display: block;
     text-align: center;
+    color: blue;
 }
 
 .txt-color {
@@ -13,9 +21,17 @@ body {
 }
 
 .profile {
-    border-radius: 195px;
-    width: 20%;
+    border-radius: 50%;
+    width: 30%;
     border: 5px solid gray;
+    /* Até no Max 575 */
+    @media (max-width: 575.98px) {
+        .profile {
+            border-radius: 50px;
+            width: 50%;
+            border: 5px solid gray;
+        }
+    }
 }
 
 .txt {
@@ -38,14 +54,9 @@ body {
 }
 
 .space {
-    margin-right: 5px;
+    padding-bottom: 25px;
 }
 
-.btn {
-    border: 1px solid transparent;
-    padding: .375rem .5rem;
-    background-color: rgb(40, 167, 124);
-    border-radius: .25rem;
-    color: #fff;
-    text-decoration: none;
+.space-top {
+    padding-top: 25px;
 }
