@@ -43,7 +43,7 @@ body {
 
 .btn {
     border: 1px solid transparent;
-    padding: .375rem .75rem;
+    padding: .375rem .5rem;
     background-color: rgb(40, 167, 124);
     border-radius: .25rem;
     color: #fff;
