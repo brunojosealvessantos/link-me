@@ -5,8 +5,7 @@
 **Demo:** [Link-me](https://brunojosealvessantos.github.io/link-me/)
 
 **Tecnologias utilizadas:**
->HTML
-
+>HTML  
 >CSS  
 >JavaScript  
 >Firebase - para envio de mensagem  
