@@ -7,15 +7,11 @@
 **Tecnologias utilizadas:**
 >HTML
 
->CSS
-
->JavaScript
-
->Firebase - para envio de mensagem
-
->Google Fonts - Montserrat
-
->Google Analytics
+>CSS  
+>JavaScript  
+>Firebase - para envio de mensagem  
+>Google Fonts - Montserrat  
+>Google Analytics  
 
 **Desenvolvedor:**
 >Bruno Santos
