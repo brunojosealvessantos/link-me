@@ -22,16 +22,17 @@ header {
 }
 
 .profile {
-    border-radius: 50%;
+    border-radius: 60%;
     width: 30%;
     border: 5px solid gray;
     /* Até no Max 575 */
-    @media (max-width: 575.98px) {
-        .profile {
-            border-radius: 50px;
-            width: 50%;
-            border: 5px solid gray;
-        }
+}
+
+@media (max-width: 575.98px) {
+    .profile {
+        border-radius: 120px;
+        width: 50%;
+        border: 5px solid gray;
     }
 }
 
